@@ -1,0 +1,63 @@
+﻿@using Microsoft.AspNetCore.Blazor
+@using System.ComponentModel
+
+@if (Errors.Any())
+{
+  <ul class="validation-error">
+    @foreach (string error in Errors)
+    {
+      <li>@error</li>
+    }
+  </ul>
+}
+
+@functions {
+
+  [Parameter]
+  protected object Subject { get; set; }
+
+  [Parameter]
+  protected string Property { get; set; }
+
+  private INotifyPropertyChanged fix; //  fixes TypeLoadException
+
+  public IEnumerable<string> Errors
+  {
+    get
+    {
+      switch (Subject)
+      {
+        case null:
+          yield return $"{nameof(Subject)} has not been set!";
+          yield break;
+        case INotifyDataErrorInfo ine:
+          if (Property == null)
+          {
+            yield return $"{nameof(Property)} has not been set!";
+            yield break;
+          }
+          foreach (var err in ine.GetErrors(Property))
+          {
+            yield return (string)err;
+          }
+          break;
+        case IDataErrorInfo ide:
+          if (Property == null)
+          {
+            yield return $"{nameof(Property)} has not been set!";
+            yield break;
+          }
+          string error = ide[Property];
+          if (error != null)
+          {
+            yield return error;
+          }
+          else
+          {
+            yield break;
+          }
+          break;
+      }
+    }
+  }
+}

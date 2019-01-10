@@ -1,0 +1,45 @@
+﻿@using PizzaPlace070.Shared
+
+<div class="row">
+  <div class="col">
+    <a href=""
+       onclick="@(() => ShowPizzaInformation(Pizza))">
+      @Pizza.Name
+    </a>
+  </div>
+  <div class="col">
+    @Pizza.Price
+  </div>
+  <div class="col">
+    <img src="@SpicinessImage(Pizza.Spiciness)"
+         alt="@Pizza.Spiciness" />
+  </div>
+  <div class="col">
+    <button class="@ButtonClass"
+            onclick="@(() => Selected(Pizza))">
+      @ButtonTitle
+    </button>
+  </div>
+</div>
+
+@functions {
+
+  [Parameter]
+  protected Pizza Pizza { get; set; }
+
+  [Parameter]
+  protected string ButtonTitle { get; set; }
+
+  [Parameter]
+  protected string ButtonClass { get; set; }
+
+  [Parameter]
+  protected Action<Pizza> Selected { get; set; }
+
+  [Parameter]
+  protected Action<Pizza> ShowPizzaInformation { get; set; }
+
+  private string SpicinessImage(Spiciness spiciness)
+=> $"images/{spiciness.ToString().ToLower()}.png";
+
+}

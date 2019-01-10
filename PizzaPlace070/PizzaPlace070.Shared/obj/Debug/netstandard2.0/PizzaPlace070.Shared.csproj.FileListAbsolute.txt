@@ -1,0 +1,9 @@
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\obj\Debug\netstandard2.0\PizzaPlace070.Shared.csproj.CoreCompileInputs.cache
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\obj\Debug\netstandard2.0\PizzaPlace070.Shared.AssemblyInfoInputs.cache
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\obj\Debug\netstandard2.0\PizzaPlace070.Shared.AssemblyInfo.cs
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\bin\Debug\netstandard2.0\PizzaPlace070.Shared.deps.json
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\bin\Debug\netstandard2.0\PizzaPlace070.Shared.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\bin\Debug\netstandard2.0\PizzaPlace070.Shared.pdb
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\obj\Debug\netstandard2.0\PizzaPlace070.Shared.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\obj\Debug\netstandard2.0\PizzaPlace070.Shared.pdb
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Shared\obj\Debug\netstandard2.0\PizzaPlace070.Shared.csprojAssemblyReference.cache

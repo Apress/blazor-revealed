@@ -1,0 +1,44 @@
+﻿@using PizzaPlace070.Shared
+
+@addTagHelper *, PizzaPlace070.Extensions.Validation
+
+<h1>@Title</h1>
+
+<fieldset>
+  <p>
+    <label for="name">Name:</label>
+    <input id="name" bind="@Customer.Name" />
+    <ValidationError Subject="@Customer"
+                     Property="@nameof(Customer.Name)" />
+  </p>
+  <p>
+    <label for="street">Street:</label>
+    <input id="street" bind="@Customer.Street" />
+    <ValidationError Subject="@Customer"
+                     Property="@nameof(Customer.Street)" />
+  </p>
+  <p>
+    <label for="city">City:</label>
+    <input id="city" bind="@Customer.City" />
+    <ValidationError Subject="@Customer"
+                     Property="@nameof(Customer.City)" />
+  </p>
+
+  <button onclick="@(()=>Submit(Customer))"
+          disabled="@Customer.HasErrors">
+    Checkout
+  </button>
+</fieldset>
+
+@functions {
+
+[Parameter]
+protected string Title { get; set; }
+
+[Parameter]
+protected Customer Customer { get; set; }
+
+[Parameter]
+protected Action<Customer> Submit { get; set; }
+
+}

@@ -1,0 +1,17 @@
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.Browser.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.AspNetCore.Blazor.TagHelperWorkaround.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.Extensions.DependencyInjection.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Microsoft.JSInterop.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\Mono.WebAssembly.Interop.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\mscorlib.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\PizzaPlace070.Client.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\PizzaPlace070.Extensions.Validation.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\PizzaPlace070.Shared.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\System.Core.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\System.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\System.Net.Http.dll
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\PizzaPlace070.Client.pdb
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\PizzaPlace070.Extensions.Validation.pdb
+C:\Code\Blazor\PizzaPlace070\PizzaPlace070.Client\obj\Debug\netstandard2.0\blazor\linker\PizzaPlace070.Shared.pdb
